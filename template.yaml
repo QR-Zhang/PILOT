@@ -156,14 +156,11 @@ body:
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div>
             <video
-              src="https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/view?usp=sharing"
+              src="https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing"
               loop
               muted
               uk-video="autoplay:inview"
               />
-            <h3 class="subtitle has-text-centered">
-             Numerical simulation on fixed-wing aircraft
-            </h3>
           </div>
           <div>
             <video
