@@ -82,8 +82,6 @@ body:
       To check available components, refer to the [UIKit documentation](https://getuikit.com/docs).
       [Slideshow](https://getuikit.com/docs/slideshow) example
 
-      </div>
-      
       ### Simulation Results
       [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
       <div uk-slider>
