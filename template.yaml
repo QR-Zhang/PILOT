@@ -73,15 +73,6 @@ abstract: |
 body:
   - title: Simulation and Experiments # Media template
     text: |
-      # ### Mediafile Path
-      # Files in `public/` can be referenced directly: `<img src="001.jpg" />`
-
-      # ### UIKit Components
-      # This template supports all UIKit components.
-      # To check available components, refer to the [UIKit documentation](https://getuikit.com/docs).
-      # [Slideshow](https://getuikit.com/docs/slideshow) example
-
-      # </div>
       # <div uk-slideshow="animation: push">
       #   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
       #     <div class="uk-slideshow-items">
