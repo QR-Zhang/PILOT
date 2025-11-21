@@ -1,41 +1,41 @@
 theme: default # default || classic || dark
-organization: Cognitive Aerial Robotics Team @ Sun Yat-sen University
+organization: "Cognitive Aerial Robotics Team @ Sun Yat-sen University"
 twitter: ""
 title: Vision-Driven End-to-End Motion Planning for UAVs Using Privileged Imitation Learning
 journal: ""
 resources:
-  paper: # https://openreview.net/
-  arxiv: # https://arxiv.org
-  code: # https://github.com/denkiwakame/academic-project-template
-  video: # https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  demo: # https://colab.research.google.com/
-  huggingface: #https://huggingface.co/
-description: academic project page template that supports markdown and KaTeX
+  paper: ""  # https://openreview.net/
+  arxiv: "" # https://arxiv.org
+  code:  "" # https://github.com/denkiwakame/academic-project-template
+  video:  "" # https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing
+  demo:  "" # https://colab.research.google.com/
+  huggingface: # https://huggingface.co/
+description:  ""  # academic project page template that supports markdown and KaTeX
 
-image: #https://denkiwakame.github.io/academic-project-template/teaser.jpg
-url: #https://denkiwakame.github.io/academic-project-template
-speakerdeck: # speakerdeck slide ID
+image: ""  # https://denkiwakame.github.io/academic-project-template/teaser.jpg
+url:  "" # https://denkiwakame.github.io/academic-project-template
+speakerdeck:  "" # speakerdeck slide ID
 authors:
   - name: Qingrui Zhang
     affiliation: [1]
-    url: https://qr-zhang.github.io/
+    url: "https://qr-zhang.github.io/"
     position: Associate Professor
   - name: Feng Xue
     affiliation: [1]
     position: Master student
-    url: #https://thispersondoesnotexist.com/
+    url:  "" #https://thispersondoesnotexist.com/
   - name: Xiang Zhou
     affiliation: [1]
     position: PhD student
-    url: #https://thispersondoesnotexist.com/
+    url:  ""  #https://thispersondoesnotexist.com/
   - name: Chenghao Yu
     affiliation: [1]
     position: Master student
-    url: #https://thispersondoesnotexist.com/
+    url:  "" #https://thispersondoesnotexist.com/
 affiliations:
   - School of Aeronautics and Astronautics, Sun Yat-sen University
-meta:
-  - 
+# meta:
+#   - '*Equal Contribution'
 # bibtex: #>
 #   # @article{doe2024superai,
 #   #   author    = {Jane Doe and John Smith},
@@ -74,6 +74,16 @@ abstract: |
 body:
   - title: Simulation and Experiment
     text: |
+      ### Mediafile Path
+      Files in `public/` can be referenced directly: `<img src="001.jpg" />`
+
+      ### UIKit Components
+      This template supports all UIKit components.
+      To check available components, refer to the [UIKit documentation](https://getuikit.com/docs).
+      [Slideshow](https://getuikit.com/docs/slideshow) example
+
+      </div>
+      
       ### Simulation Results
 
       </div>
