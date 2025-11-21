@@ -7,7 +7,7 @@ resources:
   paper: # https://openreview.net/
   arxiv: #https://arxiv.org
   code: #https://github.com/denkiwakame/academic-project-template
-  video: https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+  video: #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
   demo: #https://colab.research.google.com/
   huggingface: #https://huggingface.co/
 description: academic project page template that supports markdown and KaTeX
@@ -34,24 +34,24 @@ authors:
     url: #https://thispersondoesnotexist.com/
 affiliations:
   - School of Aeronautics and Astronautics, Sun Yat-sen University
-  # - University of Toronto
+  -
 meta:
-  # - '*work done while she was interning at Pixel Genius Lab.'
+  - 
 bibtex: >
-  # @article{doe2024superai,
-  #   author    = {Jane Doe and John Smith},
-  #   title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
-  #   journal   = {Journal of Superintelligent Systems},
-  #   year      = {2024},
-  #   volume    = {99},
-  #   number    = {1},
-  #   pages     = {1-42},
-  #   month     = {January},
-  #   keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
-  #   doi       = {10.9999/jsis.2024.001},
-  #   url       = {https://www.example.com/superai-article},
-  #   note      = {This paper sets the benchmark for future AI research and applications.}
-  # }
+  @article{doe2024superai,
+    author    = {Jane Doe and John Smith},
+    title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
+    journal   = {Journal of Superintelligent Systems},
+    year      = {2024},
+    volume    = {99},
+    number    = {1},
+    pages     = {1-42},
+    month     = {January},
+    keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
+    doi       = {10.9999/jsis.2024.001},
+    url       = {https://www.example.com/superai-article},
+    note      = {This paper sets the benchmark for future AI research and applications.}
+  }
 
 teaser: exp_at_pillar_environment.jpg #teaser.jpg
 abstract: |
