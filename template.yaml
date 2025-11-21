@@ -74,7 +74,6 @@ abstract: |
 body:
   - title: Simulation and experiments
     text: |
-
     </div>
     [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
       <div uk-slider>
