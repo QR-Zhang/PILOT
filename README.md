@@ -1,4 +1,5 @@
-# 🎨 Academic Project Page Template
+# 🎨 This is a repository for our  project
+### PILOT: Model predictive control (MPC)-guided \textbf{\underline{P}}rivileged \textbf{\underline{I}}mitation \textbf{\underline{L}}earning algorithm for vision-based end-to-end UAV m\textbf{\underline{O}}\textbf{\underline{T}}ion planning (\textbf{PILOT})  
 
 [![build](https://github.com/denkiwakame/academic-project-template/actions/workflows/build.yaml/badge.svg)](https://github.com/denkiwakame/academic-project-template/actions/workflows/build.yaml) [![lint](https://github.com/denkiwakame/academic-project-template/actions/workflows/lint.yaml/badge.svg)](https://github.com/denkiwakame/academic-project-template/actions/workflows/lint.yaml)
 [![license](https://img.shields.io/badge/LICENSE-CC--BY--SA4.0-important.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
