@@ -7,7 +7,7 @@ resources:
   paper: # https://openreview.net/
   arxiv: #https://arxiv.org
   code: #https://github.com/denkiwakame/academic-project-template
-  video: https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+  video: # https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
   demo: #https://colab.research.google.com/
   huggingface: #https://huggingface.co/
 description: academic project page template that supports markdown and KaTeX
@@ -72,7 +72,7 @@ abstract: |
 
 
 body:
-  - title: Media examples
+  - title: Simulation and experiment
     text: |
       ### Mediafile Path
       Files in `public/` can be referenced directly: `<img src="001.jpg" />`
