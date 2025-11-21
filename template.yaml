@@ -5,10 +5,10 @@ title: Vision-Driven End-to-End Motion Planning for UAVs Using Privileged Imitat
 journal: ""
 resources:
   paper: # https://openreview.net/
-  arxiv: #https://arxiv.org
-  code: #https://github.com/denkiwakame/academic-project-template
+  arxiv: # https://arxiv.org
+  code: # https://github.com/denkiwakame/academic-project-template
   video: # https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  demo: #https://colab.research.google.com/
+  demo: # https://colab.research.google.com/
   huggingface: #https://huggingface.co/
 description: academic project page template that supports markdown and KaTeX
 
@@ -75,6 +75,7 @@ body:
   - title: Simulation and Experiment
     text: |
     ## Simulation and experiment videos
+    
     </div>
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
