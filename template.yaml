@@ -81,7 +81,7 @@ body:
       # To check available components, refer to the [UIKit documentation](https://getuikit.com/docs).
       # [Slideshow](https://getuikit.com/docs/slideshow) example
 
-      # </div>
+      </div>
       # <div uk-slideshow="animation: push">
       #   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
       #     <div class="uk-slideshow-items">
