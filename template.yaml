@@ -72,7 +72,7 @@ abstract: |
  capability of strong generalization to previously unseen environments.
 body:
   - title: Simulation and Experiments # Media template
-    text: 
+    text: # |
       # <div uk-slideshow="animation: push">
       #   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
       #     <div class="uk-slideshow-items">
@@ -141,7 +141,6 @@ body:
       #     <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
       #   </div>
       # </div>
-      |
       </div>
       [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
       <div uk-slider>
