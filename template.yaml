@@ -141,8 +141,8 @@ body:
       #     <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
       #   </div>
       # </div>
-
       |
+      </div>
       [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
