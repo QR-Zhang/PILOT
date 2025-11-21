@@ -73,8 +73,8 @@ abstract: |
 body:
   - title: Simulation and Experiments # Media template
     text: |
-      ### Mediafile Path
-      Files in `public/` can be referenced directly: `<img src="001.jpg" />`
+      # ### Mediafile Path
+      # Files in `public/` can be referenced directly: `<img src="001.jpg" />`
 
       # ### UIKit Components
       # This template supports all UIKit components.
@@ -151,7 +151,7 @@ body:
       #   </div>
       # </div>
 
-      [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
+      # [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div>
@@ -161,9 +161,9 @@ body:
               muted
               uk-video="autoplay:inview"
               />
-        <h2 class="subtitle has-text-centered">
-       Numerical simulation on fixed-wing aircraft
-        </h2>
+            <h3 class="subtitle has-text-centered">
+             Numerical simulation on fixed-wing aircraft
+            </h3>
           </div>
           <div>
             <video
