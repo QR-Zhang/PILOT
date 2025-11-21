@@ -7,7 +7,7 @@ resources:
   paper: # https://openreview.net/
   arxiv: #https://arxiv.org
   code: #https://github.com/denkiwakame/academic-project-template
-  video: #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+  video: https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
   demo: #https://colab.research.google.com/
   huggingface: #https://huggingface.co/
 description: academic project page template that supports markdown and KaTeX
@@ -72,7 +72,7 @@ abstract: |
  capability of strong generalization to previously unseen environments.
 body:
   - title: Simulation and Experiments # Media template
-    text: |
+    text: 
       # <div uk-slideshow="animation: push">
       #   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
       #     <div class="uk-slideshow-items">
@@ -142,7 +142,8 @@ body:
       #   </div>
       # </div>
 
-      # [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
+      |
+      [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           # <div>
