@@ -1,4 +1,4 @@
-# 🎨 This is a repository for our  project
+# 🎨 This is a repository for our *PILOT* project
 
 🚀 **PILOT**: **P**rivileged **I**mitation **L**earning algorithm for vision-based end-to-end UAV m**OT**ion planning
 
