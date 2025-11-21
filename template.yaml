@@ -1,60 +1,75 @@
 theme: default # default || classic || dark
-organization: Pixel Genius Labs
-twitter: '@denkivvakame'
-title: Academic Project Page Template
-journal: "AAAA'24"
+organization: Cognitive Aerial Robotics Team @ Sun Yat-sen University
+twitter: ""
+title: Vision-Driven End-to-End Motion Planning for UAVs Using Privileged Imitation Learning
+journal: ""
 resources:
   paper: # https://openreview.net/
-  arxiv: https://arxiv.org
-  code: https://github.com/denkiwakame/academic-project-template
-  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  demo: https://colab.research.google.com/
-  huggingface: https://huggingface.co/
-description: academic projectpage template that supports markdown and KaTeX
+  arxiv: #https://arxiv.org
+  code: #https://github.com/denkiwakame/academic-project-template
+  video: #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+  demo: #https://colab.research.google.com/
+  huggingface: #https://huggingface.co/
+description: academic project page template that supports markdown and KaTeX
 
-image: https://denkiwakame.github.io/academic-project-template/teaser.jpg
-url: https://denkiwakame.github.io/academic-project-template
+image: #https://denkiwakame.github.io/academic-project-template/teaser.jpg
+url: #https://denkiwakame.github.io/academic-project-template
 speakerdeck: # speakerdeck slide ID
 authors:
-  - name: Wakame Denki*
-    affiliation: [1, 2]
-    url: http://denkiwakame.github.io/
-    position: intern
-  - name: Jane Doe
+  - name: Qingrui Zhang
     affiliation: [1]
-    position: Researcher
-    url: https://thispersondoesnotexist.com/
-  - name: John Smith
+    url: https://qr-zhang.github.io/
+    position: Associate Professor
+  - name: Feng Xue
     affiliation: [1]
-    position: Researcher
-    url: https://thispersondoesnotexist.com/
+    position: Master student
+    url: #https://thispersondoesnotexist.com/
+  - name: Xiang Zhou
+    affiliation: [1]
+    position: PhD student
+    url: #https://thispersondoesnotexist.com/
+  - name: Chenghao Yu
+    affiliation: [1]
+    position: Master student
+    url: #https://thispersondoesnotexist.com/
 affiliations:
-  - Pixel Genius Labs
-  - NeuroNauts Academy
+  - School of Aeronautics and Astronautics, Sun Yat-sen University
+  # - University of Toronto
 meta:
-  - '*work done while she was interning at Pixel Genius Lab.'
+  # - '*work done while she was interning at Pixel Genius Lab.'
 bibtex: >
-  @article{doe2024superai,
-    author    = {Jane Doe and John Smith},
-    title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
-    journal   = {Journal of Superintelligent Systems},
-    year      = {2024},
-    volume    = {99},
-    number    = {1},
-    pages     = {1-42},
-    month     = {January},
-    keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
-    doi       = {10.9999/jsis.2024.001},
-    url       = {https://www.example.com/superai-article},
-    note      = {This paper sets the benchmark for future AI research and applications.}
-  }
+  # @article{doe2024superai,
+  #   author    = {Jane Doe and John Smith},
+  #   title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
+  #   journal   = {Journal of Superintelligent Systems},
+  #   year      = {2024},
+  #   volume    = {99},
+  #   number    = {1},
+  #   pages     = {1-42},
+  #   month     = {January},
+  #   keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
+  #   doi       = {10.9999/jsis.2024.001},
+  #   url       = {https://www.example.com/superai-article},
+  #   note      = {This paper sets the benchmark for future AI research and applications.}
+  # }
 
 teaser: teaser.jpg
 abstract: |
-  This is a versatile template designed to satisfy your research project page needs, all while harnessing the power of 🎨**UIKit** and ⚛ **React**. Built on the foundations of simplicity and flexibility, this template allows you to focus on expressing your ideas without the hassle of directly handling CSS—thanks to customizable SASS variables.
-  With markdown as your canvas and $\KaTeX$ for precise equations, crafting clear and engaging project page becomes effortless. Whether you're unraveling complex theories or presenting your findings, this template aims to support your scholarly endeavors with grace and ease.
-  *Need to edit HTML directly?* Fear not! In addition to markdown, you can also directly write HTML with ease. Feel empowered to craft your content exactly as you envision it, whether through markdown's simplicity or the precision of HTML.
-
+ Autonomous navigation in unknown cluttered environments remains a challenge for vision-based unmanned aerial vehicles (UAVs), 
+ particularly under limited onboard resources. In this paper, we present PILOT, a privileged imitation learning algorithm for 
+ vision-based end-to-end UAV motion planning in cluttered, unstructured, and congested environments. A model predictive control 
+ (MPC) expert with access to privileged information is introduced to generate collision-free demonstration trajectories that 
+ guide the learning process of PILOT. A temporal convolutional network (TCN) is used to implicitly reconstruct all unobservable 
+ privileged information by fusing sequential visual observations and historical velocity measurements. The TCN module enables a 
+ UAV to achieve extended spatial awareness beyond immediate visual perception, thereby enhancing the generalization capability 
+ of the learned planner. A trajectory parameterization technique is further introduced to improve motion smoothness and ensure 
+ satisfaction of UAV dynamic constraints. The proposed PILOT framework is thoroughly evaluated through extensive numerical simulations 
+ and diverse real-world experiments. The evaluation results demonstrate that the planner learned by PILOT achieves consistent performance 
+ comparable to the MPC expert with a significant reduction computation time by more than 80% across diverse environments and different 
+ UAV platforms. Ablation studies have illustrated the efficiency of both the TCN and the trajectory parameterization modules. 
+ Real-world tests on a custom-built quadrotor have corroborated that the learned motion planner can generate feasible, collision-free 
+ trajectories in real time directly using noisy visual observations. Both simulations and experimental results have confirmed PILOT’s 
+ capability of strong generalization to previously unseen environments.
 body:
   - title: Media examples
     text: |
