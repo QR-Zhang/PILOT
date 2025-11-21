@@ -86,12 +86,7 @@ body:
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div>
-            <video
-              src="https://drive.google.com/file/d/1OxaRQNORNBdd60U-jwd0jLW29GQ-hgIE/preview"
-              loop
-              muted
-              uk-video="autoplay:inview"
-              />
+              <iframe src="https://drive.google.com/file/d/1OxaRQNORNBdd60U-jwd0jLW29GQ-hgIE/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
           <div>
             <video
