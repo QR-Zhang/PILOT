@@ -145,14 +145,14 @@ body:
       # [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
-          <div>
-            <video
-              src="https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing"
-              loop
-              muted
-              uk-video="autoplay:inview"
-              />
-          </div>
+          # <div>
+          #   <video
+          #     src="https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing"
+          #     loop
+          #     muted
+          #     uk-video="autoplay:inview"
+          #     />
+          # </div>
           <div>
             <video
               src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
