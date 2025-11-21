@@ -22,13 +22,26 @@ class Template extends React.Component {
           title={data.title}
           link={
             [
-              { rel: 'icon', type: 'image/x-icon', href: 'droneicon.ico' },
-               {
+             //  { rel: 'icon', type: 'image/x-icon', href: 'droneicon.ico' },
+             //   {
+             //  rel: 'icon',
+             //  type: 'image/png',
+             //  sizes: '32x32',
+             //  href: 'drone.png',
+             // },
+             { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+            {
               rel: 'icon',
               type: 'image/png',
               sizes: '32x32',
-              href: 'drone.png',
-             },
+              href: 'favicon-32x32.png',
+            },
+            {
+              rel: 'icon',
+              type: 'image/png',
+              sizes: '16x16',
+              href: 'favicon-16x16.png',
+            },
           ]
           }
           meta={[
