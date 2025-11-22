@@ -70,13 +70,7 @@ abstract: |
  capability of strong generalization to previously unseen environments.
 
 
-body:
- - title: Simulation and Experiment
-    text: "Simulation"
-    # slider:
-    #   - video: "https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview"
-    #   - video: "https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview"
-      
+body:      
   - title: Simulation and Experiment
     text: |
       Simulation Results
