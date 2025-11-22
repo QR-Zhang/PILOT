@@ -103,18 +103,20 @@ class Content extends React.Component {
 //   }
 // }
 
-// ---------------- GOOGLE DRIVE SLIDER --------------------
+// ---------------- SLIDER COMPONENT FOR GOOGLE DRIVE --------------------
 const GoogleDriveSlider = ({ videos }) => {
   useEffect(() => {
-    // Initialize UIKit slider
-    UIkit.slider(document.querySelectorAll('[uk-slider]'));
+    // Initialize UIKit slider after the component has rendered
+    if (videos && videos.length > 0) {
+      UIkit.slider(document.querySelectorAll('[uk-slider]'));
+    }
   }, [videos]);
 
   if (!videos || videos.length === 0) return null;
 
   return (
     <div uk-slider="finite: true">
-      <div className="uk-position-relative uk-visible-toggle">
+      <div className="uk-slider-container">
         <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           {videos.map((video, idx) => (
             <li key={idx}>
@@ -123,10 +125,10 @@ const GoogleDriveSlider = ({ videos }) => {
                   src={`${video.src}?autoplay=1&mute=1`} 
                   width="480"
                   height="360"
-                  allow="autoplay"
-                  allowFullScreen
+                  allow="autoplay; fullscreen"
                   frameBorder="0"
                   title={`video-${idx}`}
+                  allowFullScreen
                 />
               </div>
             </li>
@@ -150,7 +152,7 @@ const GoogleDriveSlider = ({ videos }) => {
   );
 };
 
-// ---------------- BODY COMPONENT --------------------
+// ---------------- MAIN BODY COMPONENT --------------------
 export default class Body extends React.Component {
   render() {
     const { body } = this.props;
