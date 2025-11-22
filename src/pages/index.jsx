@@ -115,7 +115,7 @@ class Template extends React.Component {
           conference={data.conference}
           authors={data.authors}
           affiliations={data.affiliations}
-          meta={data.meta}
+          {/* meta={data.meta} */}
           resources={data.resources}
           theme={data.theme}
         />
