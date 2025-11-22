@@ -11,10 +11,6 @@ import 'highlight.js/styles/tokyo-night-dark.css';
 
 import 'img-comparison-slider';
 
-import UIkit from 'uikit';
-import Icons from 'uikit/dist/js/uikit-icons';
-
-UIkit.use(Icons); // needed for slider icons and JS components
 
 // ---------------- CUSTOM RENDERER --------------------
 const renderer = new marked.Renderer();
@@ -83,67 +79,6 @@ class Content extends React.Component {
   }
 }
 
-// // ---------------- BODY COMPONENT --------------------
-// export default class Body extends React.Component {
-//   render() {
-//     const { body } = this.props;
-
-//     return body ? (
-//       <div className="uk-section">
-//         {body.map((sub, idx) => (
-//           <div key={idx}>
-//             <Content title={sub.title} />
-//             <Content image={sub.image} />
-//             <Content text={sub.text} />
-//           </div>
-//         ))}
-//       </div>
-//     ) : null;
-//   }
-// }
-
-// ---------------- SLIDER COMPONENT --------------------
-const Slider = ({ items }) => {
-  useEffect(() => {
-    // Initialize all UIKit sliders in this component
-    UIkit.slider(document.querySelectorAll('[uk-slider]'));
-  }, [items]);
-
-  return (
-    <div className="uk-position-relative uk-visible-toggle uk-light" uk-slider="finite: true">
-      <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
-        {items.map((item, idx) => (
-          <li key={idx}>
-            <div className="publication-video">
-              <iframe
-                src={item.video}
-                width="480"
-                height="360"
-                allow="autoplay"
-                frameBorder="0"
-                title={`video-${idx}`}
-              />
-            </div>
-          </li>
-        ))}
-      </ul>
-
-      <a
-        className="uk-position-center-left uk-position-small uk-hidden-hover"
-        href="#"
-        uk-slidenav-previous="true"
-        uk-slider-item="previous"
-      ></a>
-      <a
-        className="uk-position-center-right uk-position-small uk-hidden-hover"
-        href="#"
-        uk-slidenav-next="true"
-        uk-slider-item="next"
-      ></a>
-    </div>
-  );
-};
-
 // ---------------- BODY COMPONENT --------------------
 export default class Body extends React.Component {
   render() {
@@ -156,14 +91,12 @@ export default class Body extends React.Component {
             <Content title={sub.title} />
             <Content image={sub.image} />
             <Content text={sub.text} />
-            {sub.slider && <Slider items={sub.slider} />}
           </div>
         ))}
       </div>
     ) : null;
   }
 }
-
 
 // import React from 'react';
 // import { render } from 'react-dom';
