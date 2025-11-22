@@ -79,8 +79,6 @@ body:
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div class="publication-video">
             <iframe src="https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview" width="480" height="360" allow="autoplay" frameBorder="0" ></iframe>
-          </div>
-          <div class="publication-video">
             <iframe src="https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview" width="480" height="360" allow="autoplay"></iframe>
            </div>
           <div class="publication-video">
