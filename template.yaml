@@ -7,8 +7,7 @@ resources:
   paper: "https://qr-zhang.github.io/PILOT/"  # https://openreview.net/
   arxiv: "https://qr-zhang.github.io/PILOT/" # https://arxiv.org
   code:  "https://qr-zhang.github.io/PILOT/" # https://github.com/denkiwakame/academic-project-template
-  video:  "# https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing" # https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing
-  demo:  "https://qr-zhang.github.io/PILOT/" # https://colab.research.google.com/
+  video:  "https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing"
   huggingface: # https://huggingface.co/
 description:  "This an academic page for our PILOT project"  # academic project page template that supports markdown and KaTeX
 
