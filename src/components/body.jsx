@@ -11,6 +11,11 @@ import 'highlight.js/styles/tokyo-night-dark.css';
 
 import 'img-comparison-slider';
 
+// for video slider
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
+
+UIkit.use(Icons); // required for slider icons and components
 
 // ---------------- CUSTOM RENDERER --------------------
 const renderer = new marked.Renderer();
@@ -79,6 +84,67 @@ class Content extends React.Component {
   }
 }
 
+// // ---------------- BODY COMPONENT --------------------
+// export default class Body extends React.Component {
+//   render() {
+//     const { body } = this.props;
+
+//     return body ? (
+//       <div className="uk-section">
+//         {body.map((sub, idx) => (
+//           <div key={idx}>
+//             <Content title={sub.title} />
+//             <Content image={sub.image} />
+//             <Content text={sub.text} />
+//           </div>
+//         ))}
+//       </div>
+//     ) : null;
+//   }
+// }
+
+// ---------------- VIDEO SLIDER COMPONENT --------------------
+const VideoSlider = ({ videos }) => {
+  if (!videos || videos.length === 0) return null;
+
+  return (
+    <div uk-slider="finite: true">
+      <div className="uk-position-relative uk-visible-toggle">
+        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+          {videos.map((video, idx) => (
+            <li key={idx}>
+              <video
+                width="480"
+                height="360"
+                src={video.src}  // path to video in public folder
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="uk-align-center"
+              />
+            </li>
+          ))}
+        </ul>
+
+        {/* Navigation */}
+        <a
+          className="uk-position-center-left uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-previous
+          uk-slider-item="previous"
+        ></a>
+        <a
+          className="uk-position-center-right uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-next
+          uk-slider-item="next"
+        ></a>
+      </div>
+    </div>
+  );
+};
+
 // ---------------- BODY COMPONENT --------------------
 export default class Body extends React.Component {
   render() {
@@ -91,6 +157,8 @@ export default class Body extends React.Component {
             <Content title={sub.title} />
             <Content image={sub.image} />
             <Content text={sub.text} />
+            {/* Render slider if videos exist */}
+            {sub.videos && <VideoSlider videos={sub.videos} />}
           </div>
         ))}
       </div>
