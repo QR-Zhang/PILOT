@@ -82,31 +82,31 @@ class Template extends React.Component {
               property: 'og:site_name',
               content: data.organization,
             },
-            // Twitter
-            {
-              name: 'twitter:card',
-              content: 'summary_large_image',
-            },
-            {
-              name: 'twitter:url',
-              content: data.url,
-            },
-            {
-              name: 'twitter:title',
-              content: data.title,
-            },
-            {
-              name: 'twitter:description',
-              content: data.description,
-            },
-            {
-              name: 'twitter:image:src',
-              content: data.image,
-            },
-            {
-              name: 'twitter:site',
-              content: data.twitter,
-            },
+            // // Twitter
+            // {
+            //   name: 'twitter:card',
+            //   content: 'summary_large_image',
+            // },
+            // {
+            //   name: 'twitter:url',
+            //   content: data.url,
+            // },
+            // {
+            //   name: 'twitter:title',
+            //   content: data.title,
+            // },
+            // {
+            //   name: 'twitter:description',
+            //   content: data.description,
+            // },
+            // {
+            //   name: 'twitter:image:src',
+            //   content: data.image,
+            // },
+            // {
+            //   name: 'twitter:site',
+            //   content: data.twitter,
+            // },
           ]}
         />
         <Header
