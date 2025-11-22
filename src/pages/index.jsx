@@ -21,12 +21,12 @@ class Template extends React.Component {
         <Helmet
           title={data.title}
           link={[
-             { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+             { rel: 'icon', type: 'image/x-icon', href: 'droneicon.ico' },
             {
               rel: 'icon',
               type: 'image/png',
               sizes: '32x32',
-              href: 'favicon-32x32.png',
+              href: 'drone.png',
             },
             {
               rel: 'icon',
