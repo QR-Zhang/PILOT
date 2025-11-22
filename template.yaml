@@ -11,7 +11,7 @@ resources:
   huggingface: # https://huggingface.co/
 description:  "This an academic page for our PILOT project"  # academic project page template that supports markdown and KaTeX
 
-image: "https://qr-zhang.github.io/PILOT/exp_at_pillar_environment.jpg"  # https://denkiwakame.github.io/academic-project-template/teaser.jpg
+image: "https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg"  # https://denkiwakame.github.io/academic-project-template/teaser.jpg
 url:  "https://qr-zhang.github.io/PILOT/" # https://denkiwakame.github.io/academic-project-template
 speakerdeck:  "" # speakerdeck slide ID
 authors:
