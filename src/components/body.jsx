@@ -78,6 +78,66 @@ class Content extends React.Component {
   }
 }
 
+// // ---------------- BODY COMPONENT --------------------
+// export default class Body extends React.Component {
+//   render() {
+//     const { body } = this.props;
+
+//     return body ? (
+//       <div className="uk-section">
+//         {body.map((sub, idx) => (
+//           <div key={idx}>
+//             <Content title={sub.title} />
+//             <Content image={sub.image} />
+//             <Content text={sub.text} />
+//           </div>
+//         ))}
+//       </div>
+//     ) : null;
+//   }
+// }
+
+// ---------------- SLIDER COMPONENT --------------------
+const Slider = ({ items }) => {
+  if (!items || items.length === 0) return null;
+
+  return (
+    <div uk-slider="finite: true">
+      <div className="uk-slider-container">
+        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+          {items.map((item, idx) => (
+            <li key={idx}>
+              <div className="publication-video">
+                <iframe
+                  src={item.video}
+                  width="480"
+                  height="360"
+                  allow="autoplay"
+                  frameBorder="0"
+                  title={`video-${idx}`}
+                />
+              </div>
+            </li>
+          ))}
+        </ul>
+
+        <a
+          className="uk-position-center-left uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-previous
+          uk-slider-item="previous"
+        ></a>
+        <a
+          className="uk-position-center-right uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-next
+          uk-slider-item="next"
+        ></a>
+      </div>
+    </div>
+  );
+};
+
 // ---------------- BODY COMPONENT --------------------
 export default class Body extends React.Component {
   render() {
@@ -90,6 +150,7 @@ export default class Body extends React.Component {
             <Content title={sub.title} />
             <Content image={sub.image} />
             <Content text={sub.text} />
+            {sub.slider && <Slider items={sub.slider} />}
           </div>
         ))}
       </div>
