@@ -5,13 +5,10 @@
 
 ## ✨ Features
 
-- 🚀 to-be-added
-- 📝 to-be-added
-- 📝 to-be-added
-- ➗ to-be-added
-- 🎨 to-be-added
-- 🔄 to-be-added
-- 📱 to-be-added
+- 🚀 The first contribution of this project is the design of a privileged imitation learning framework for vision-based autonomous flight of UAVs. Based on this framework, an end-to-end vision-based motion planner is trained to emulate the optimal behavior of a computationally intensive MPC expert with privileged global information in cluttered environments. The learned policy achieves performance comparable to that of the MPC expert by directly using a history of noisy depth images as input, while requiring significantly less computation time. We demonstrate the efficiency and generality of the learned policy on both a fixed-wing aircraft and a quadrotor vehicle through comprehensive simulations. Additionally, experiments conducted on a custom-built quadrotor further validate the proposed design. Experimental results illustrate that the learned planner outperforms MPC in scenarios where UAVs operate with a limited field of view, highlighting its superior efficiency and robustness.
+- 📝 The second contribution is the development of a perception fusion module that integrates multi-sensor data over a sequence of time steps. This module encodes perceptual information from multiple sensors, such as depth cameras and Visual Inertial Odometry (VIO), into a unified latent feature representation. A Temporal Convolutional Network (TCN) is employed to fuse these latent features over time, enabling the planner to implicitly infer dynamic changes in the environment with a limited field of view, based on historical observations. This approach enhances the planner's ability to navigate complex environments by leveraging memory of previously encountered scenarios. Ablation studies have shown improved performance using a history of visual measurements, as opposed to a single-step image input.
+- 🎨 The last contribution is the introduction of a trajectory parameterization strategy that transforms network outputs into smooth and dynamically feasible trajectories. Rather than directly using a neural network to output actions for UAVs, our method generates control points that define a curve from which a smooth trajectory is derived. This strategy not only enhances the flexibility and generalizability of the learned planner across devices with varying control frequency requirements but also improves its resilience to unexpected delays caused by sensor or computational latency. As a result, the planned trajectories exhibit greater adaptability and reliability in real-world applications.
+
 
 🌐 **Project page**: [PILOT Project]([https://denkiwakame.github.io/academic-project-template](https://qr-zhang.github.io/PILOT/)) 
 
@@ -22,9 +19,3 @@ N/A
 ## ⚙️ Citations
 to-be-added
 
-
-You can re-enable hooks by unsetting the variable or starting a new terminal session.
-
-## 📄 License
-
-[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
