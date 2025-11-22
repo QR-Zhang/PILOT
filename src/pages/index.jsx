@@ -128,7 +128,6 @@ class Template extends React.Component {
           {/* <Video video={data.resources.video} /> */}
           <SpeakerDeck dataId={data.speakerdeck} />
           <Body body={data.body} />
-          <Overview video={data.resources.video} />
          {/* <Citation bibtex={data.bibtex} 
           <Projects projects={data.projects} />  */}
         </div>
