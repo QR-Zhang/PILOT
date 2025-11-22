@@ -51,7 +51,7 @@ affiliations:
 #   #   note      = {This paper sets the benchmark for future AI research and applications.}
 #   # }
 
-teaser: exp_at_pillar_environment.jpg #teaser.jpg
+teaser: exp_at_pillar_environment2.jpg #teaser.jpg
 abstract: |
  Autonomous navigation in unknown cluttered environments remains a challenge for vision-based unmanned aerial vehicles (UAVs), 
  particularly under limited onboard resources. In this paper, we present PILOT, a privileged imitation learning algorithm for 
