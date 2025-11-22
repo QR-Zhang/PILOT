@@ -10,7 +10,7 @@
 - 🎨 The last contribution is the introduction of a trajectory parameterization strategy that transforms network outputs into smooth and dynamically feasible trajectories. Rather than directly using a neural network to output actions for UAVs, our method generates control points that define a curve from which a smooth trajectory is derived. This strategy not only enhances the flexibility and generalizability of the learned planner across devices with varying control frequency requirements but also improves its resilience to unexpected delays caused by sensor or computational latency. As a result, the planned trajectories exhibit greater adaptability and reliability in real-world applications.
 
 
-🌐 **Project page**: [PILOT Project]([https://denkiwakame.github.io/academic-project-template](https://qr-zhang.github.io/PILOT/)) 
+🌐 **Project page**: [PILOT Project](https://qr-zhang.github.io/PILOT/)
 
 
 ## 🚦 Prerequisites
