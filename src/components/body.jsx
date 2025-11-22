@@ -84,75 +84,7 @@ class Content extends React.Component {
   }
 }
 
-// // ---------------- BODY COMPONENT --------------------
-// export default class Body extends React.Component {
-//   render() {
-//     const { body } = this.props;
-
-//     return body ? (
-//       <div className="uk-section">
-//         {body.map((sub, idx) => (
-//           <div key={idx}>
-//             <Content title={sub.title} />
-//             <Content image={sub.image} />
-//             <Content text={sub.text} />
-//           </div>
-//         ))}
-//       </div>
-//     ) : null;
-//   }
-// }
-
-// ---------------- SLIDER COMPONENT FOR GOOGLE DRIVE --------------------
-const GoogleDriveSlider = ({ videos }) => {
-  useEffect(() => {
-    // Initialize UIKit slider after the component has rendered
-    if (videos && videos.length > 0) {
-      UIkit.slider(document.querySelectorAll('[uk-slider]'));
-    }
-  }, [videos]);
-
-  if (!videos || videos.length === 0) return null;
-
-  return (
-    <div uk-slider="finite: true">
-      <div className="uk-slider-container">
-        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
-          {videos.map((video, idx) => (
-            <li key={idx}>
-              <div className="publication-video">
-                <iframe
-                  src={`${video.src}?autoplay=1&mute=1`} 
-                  width="480"
-                  height="360"
-                  allow="autoplay; fullscreen"
-                  frameBorder="0"
-                  title={`video-${idx}`}
-                  allowFullScreen
-                />
-              </div>
-            </li>
-          ))}
-        </ul>
-
-        <a
-          className="uk-position-center-left uk-position-small uk-hidden-hover"
-          href="#"
-          uk-slidenav-previous
-          uk-slider-item="previous"
-        ></a>
-        <a
-          className="uk-position-center-right uk-position-small uk-hidden-hover"
-          href="#"
-          uk-slidenav-next
-          uk-slider-item="next"
-        ></a>
-      </div>
-    </div>
-  );
-};
-
-// ---------------- MAIN BODY COMPONENT --------------------
+// ---------------- BODY COMPONENT --------------------
 export default class Body extends React.Component {
   render() {
     const { body } = this.props;
@@ -164,13 +96,81 @@ export default class Body extends React.Component {
             <Content title={sub.title} />
             <Content image={sub.image} />
             <Content text={sub.text} />
-            {sub.videos && <GoogleDriveSlider videos={sub.videos} />}
           </div>
         ))}
       </div>
     ) : null;
   }
 }
+
+// // ---------------- SLIDER COMPONENT FOR GOOGLE DRIVE --------------------
+// const GoogleDriveSlider = ({ videos }) => {
+//   useEffect(() => {
+//     // Initialize UIKit slider after the component has rendered
+//     if (videos && videos.length > 0) {
+//       UIkit.slider(document.querySelectorAll('[uk-slider]'));
+//     }
+//   }, [videos]);
+
+//   if (!videos || videos.length === 0) return null;
+
+//   return (
+//     <div uk-slider="finite: true">
+//       <div className="uk-slider-container">
+//         <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+//           {videos.map((video, idx) => (
+//             <li key={idx}>
+//               <div className="publication-video">
+//                 <iframe
+//                   src={`${video.src}?autoplay=1&mute=1`} 
+//                   width="480"
+//                   height="360"
+//                   allow="autoplay; fullscreen"
+//                   frameBorder="0"
+//                   title={`video-${idx}`}
+//                   allowFullScreen
+//                 />
+//               </div>
+//             </li>
+//           ))}
+//         </ul>
+
+//         <a
+//           className="uk-position-center-left uk-position-small uk-hidden-hover"
+//           href="#"
+//           uk-slidenav-previous
+//           uk-slider-item="previous"
+//         ></a>
+//         <a
+//           className="uk-position-center-right uk-position-small uk-hidden-hover"
+//           href="#"
+//           uk-slidenav-next
+//           uk-slider-item="next"
+//         ></a>
+//       </div>
+//     </div>
+//   );
+// };
+
+// // ---------------- MAIN BODY COMPONENT --------------------
+// export default class Body extends React.Component {
+//   render() {
+//     const { body } = this.props;
+
+//     return body ? (
+//       <div className="uk-section">
+//         {body.map((sub, idx) => (
+//           <div key={idx}>
+//             <Content title={sub.title} />
+//             <Content image={sub.image} />
+//             <Content text={sub.text} />
+//             {sub.videos && <GoogleDriveSlider videos={sub.videos} />}
+//           </div>
+//         ))}
+//       </div>
+//     ) : null;
+//   }
+// }
 
 // import React from 'react';
 // import { render } from 'react-dom';
