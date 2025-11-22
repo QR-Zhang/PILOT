@@ -103,8 +103,13 @@ class Content extends React.Component {
 //   }
 // }
 
-// ---------------- VIDEO SLIDER COMPONENT --------------------
-const VideoSlider = ({ videos }) => {
+// ---------------- GOOGLE DRIVE SLIDER --------------------
+const GoogleDriveSlider = ({ videos }) => {
+  useEffect(() => {
+    // Initialize UIKit slider
+    UIkit.slider(document.querySelectorAll('[uk-slider]'));
+  }, [videos]);
+
   if (!videos || videos.length === 0) return null;
 
   return (
@@ -113,21 +118,21 @@ const VideoSlider = ({ videos }) => {
         <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           {videos.map((video, idx) => (
             <li key={idx}>
-              <video
-                width="480"
-                height="360"
-                src={video.src}  // path to video in public folder
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="uk-align-center"
-              />
+              <div className="publication-video">
+                <iframe
+                  src={`${video.src}?autoplay=1&mute=1`} 
+                  width="480"
+                  height="360"
+                  allow="autoplay"
+                  allowFullScreen
+                  frameBorder="0"
+                  title={`video-${idx}`}
+                />
+              </div>
             </li>
           ))}
         </ul>
 
-        {/* Navigation */}
         <a
           className="uk-position-center-left uk-position-small uk-hidden-hover"
           href="#"
@@ -157,8 +162,7 @@ export default class Body extends React.Component {
             <Content title={sub.title} />
             <Content image={sub.image} />
             <Content text={sub.text} />
-            {/* Render slider if videos exist */}
-            {sub.videos && <VideoSlider videos={sub.videos} />}
+            {sub.videos && <GoogleDriveSlider videos={sub.videos} />}
           </div>
         ))}
       </div>
