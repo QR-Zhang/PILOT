@@ -104,46 +104,42 @@ class Content extends React.Component {
 
 // ---------------- SLIDER COMPONENT --------------------
 const Slider = ({ items }) => {
-   useEffect(() => {
-    // Initialize slider after render
+  useEffect(() => {
+    // Initialize all UIKit sliders in this component
     UIkit.slider(document.querySelectorAll('[uk-slider]'));
   }, [items]);
-  
-  if (!items || items.length === 0) return null;
 
   return (
-    <div uk-slider="finite: true">
-      <div className="uk-slider-container">
-        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
-          {items.map((item, idx) => (
-            <li key={idx}>
-              <div className="publication-video">
-                <iframe
-                  src={item.video}
-                  width="480"
-                  height="360"
-                  allow="autoplay"
-                  frameBorder="0"
-                  title={`video-${idx}`}
-                />
-              </div>
-            </li>
-          ))}
-        </ul>
+    <div className="uk-position-relative uk-visible-toggle uk-light" uk-slider="finite: true">
+      <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+        {items.map((item, idx) => (
+          <li key={idx}>
+            <div className="publication-video">
+              <iframe
+                src={item.video}
+                width="480"
+                height="360"
+                allow="autoplay"
+                frameBorder="0"
+                title={`video-${idx}`}
+              />
+            </div>
+          </li>
+        ))}
+      </ul>
 
-        <a
-          className="uk-position-center-left uk-position-small uk-hidden-hover"
-          href="#"
-          uk-slidenav-previous
-          uk-slider-item="previous"
-        ></a>
-        <a
-          className="uk-position-center-right uk-position-small uk-hidden-hover"
-          href="#"
-          uk-slidenav-next
-          uk-slider-item="next"
-        ></a>
-      </div>
+      <a
+        className="uk-position-center-left uk-position-small uk-hidden-hover"
+        href="#"
+        uk-slidenav-previous="true"
+        uk-slider-item="previous"
+      ></a>
+      <a
+        className="uk-position-center-right uk-position-small uk-hidden-hover"
+        href="#"
+        uk-slidenav-next="true"
+        uk-slider-item="next"
+      ></a>
     </div>
   );
 };
