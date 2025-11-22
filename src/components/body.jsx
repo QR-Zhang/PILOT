@@ -11,6 +11,11 @@ import 'highlight.js/styles/tokyo-night-dark.css';
 
 import 'img-comparison-slider';
 
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
+
+UIkit.use(Icons); // needed for slider icons and JS components
+
 // ---------------- CUSTOM RENDERER --------------------
 const renderer = new marked.Renderer();
 
@@ -99,6 +104,11 @@ class Content extends React.Component {
 
 // ---------------- SLIDER COMPONENT --------------------
 const Slider = ({ items }) => {
+   useEffect(() => {
+    // Initialize slider after render
+    UIkit.slider(document.querySelectorAll('[uk-slider]'));
+  }, [items]);
+  
   if (!items || items.length === 0) return null;
 
   return (
