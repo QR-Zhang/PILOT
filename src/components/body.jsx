@@ -1,79 +1,100 @@
 import React from 'react';
+import { render } from 'react-dom';
 import { marked } from 'marked';
 import markedKatex from 'marked-katex-extension';
 import { markedHighlight } from 'marked-highlight';
 import hljs from 'highlight.js';
-import DOMPurify from 'dompurify';
-
+//import 'highlight.js/styles/base16/gruvbox-dark-hard.css';
+// import 'highlight.js/styles/base16/github.css';
 import 'highlight.js/styles/tokyo-night-dark.css';
+// import 'highlight.js/styles/pojoaque.css';
+
 import 'img-comparison-slider';
 
-// Configure Markdown
+// ---------------- CUSTOM RENDERER --------------------
+const renderer = new marked.Renderer();
+
+// UIKit-compatible table
+renderer.table = (header, body) => {
+  return `
+    <div class="uk-overflow-auto uk-width-1-1">
+      <table class="uk-table uk-table-small uk-text-small uk-table-divider">
+        ${header} ${body}
+      </table>
+    </div>`;
+};
+
+// IMPORTANT: remove your original broken code renderer.
+// Let marked-highlight handle syntax highlighting.
+// Do NOT override renderer.code(), or highlight.js breaks.
+
+
+// ---------------- MARKED CONFIG --------------------
 marked.use(markedKatex({ throwOnError: false }));
+
 marked.use(
   markedHighlight({
     langPrefix: 'hljs language-',
     highlight(code, lang) {
-      const validLang = hljs.getLanguage(lang) ? lang : 'plaintext';
-      return hljs.highlight(code, { language: validLang }).value;
+      const valid = hljs.getLanguage(lang) ? lang : 'plaintext';
+      return hljs.highlight(code, { language: valid }).value;
     },
   })
 );
 
-// Custom table renderer (UIKit)
-marked.use({
-  renderer: {
-    table(header, body) {
-      return `
-        <div class="uk-overflow-auto uk-width-1-1">
-          <table class="uk-table uk-table-small uk-text-small uk-table-divider">
-            ${header}
-            ${body}
-          </table>
-        </div>
-      `;
-    },
-  },
-});
+marked.use({ renderer });
 
-// Subsection Component
-const Subsection = ({ title, image, text }) => (
-  <div className="uk-margin-large">
-    {title && (
-      <h2 className="uk-text-bold uk-margin-top uk-heading-line uk-text-center">
-        <span>{title}</span>
-      </h2>
-    )}
+// ---------------- CONTENT COMPONENT --------------------
+class Content extends React.Component {
+  render() {
+    const { title, text, image } = this.props;
 
-    {image && (
-      <img
-        src={image}
-        className="uk-align-center uk-responsive-width"
-        alt=""
-      />
-    )}
+    if (title)
+      return (
+        <h2 className="uk-text-bold uk-margin-top uk-heading-line uk-text-center">
+          <span>{title}</span>
+        </h2>
+      );
 
-    {text && (
-      <div
-        dangerouslySetInnerHTML={{
-          __html: DOMPurify.sanitize(marked.parse(text)),
-        }}
-      />
-    )}
-  </div>
-);
+    if (text)
+      return (
+        <div
+          dangerouslySetInnerHTML={{
+            __html: marked.parse(text),
+          }}
+        />
+      );
 
-// Main Body Component
-export default function Body({ body }) {
-  if (!body) return null;
+    if (image)
+      return (
+        <img
+          src={image}
+          className="uk-align-center uk-responsive-width"
+          alt=""
+        />
+      );
 
-  return (
-    <div className="uk-section">
-      {body.map((s, idx) => (
-        <Subsection key={idx} title={s.title} image={s.image} text={s.text} />
-      ))}
-    </div>
-  );
+    return null;
+  }
+}
+
+// ---------------- BODY COMPONENT --------------------
+export default class Body extends React.Component {
+  render() {
+    const { body } = this.props;
+
+    return body ? (
+      <div className="uk-section">
+        {body.map((sub, idx) => (
+          <div key={idx}>
+            <Content title={sub.title} />
+            <Content image={sub.image} />
+            <Content text={sub.text} />
+          </div>
+        ))}
+      </div>
+    ) : null;
+  }
 }
 
 
