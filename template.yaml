@@ -71,11 +71,16 @@ abstract: |
 
 
 body:
+ - title: Simulation and Experiment
+    text: Simulation
+    slider:
+      - video: "https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview"
+      - video: "https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview"
+      
   - title: Simulation and Experiment
+    # image:
     text: |
       Simulation Results
-      # [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
-
       </div>
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
@@ -93,7 +98,7 @@ body:
       </div>
 
       Experiment Results
-
+ 
 
   # - title: License
   #   text: |
