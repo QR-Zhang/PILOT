@@ -71,10 +71,9 @@ abstract: |
 
 
 body:      
-  - title: Simulation and Experiment
+  - title: Simulation Videos
     text: |
-      ## Simulation Results
-      
+    
       </div>
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
@@ -91,20 +90,26 @@ body:
         </div>
       </div>
 
-     ## Experiment Results
-  - title: Simulation and Experiment (Choice 2)
-    text: "simulations"
-    slider:
-      - video: "https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview" 
+   - title: Experiment Videos
+    text: |
     
+      </div>
+      <div uk-slider>
+        <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+        <div class="publication-video">
+        <iframe src="https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview" width="480" height="360" allow="autoplay"></iframe>
+         </div>
+        <div class="publication-video">
+        <iframe src="https://drive.google.com/file/d/1OxaRQNORNBdd60U-jwd0jLW29GQ-hgIE/preview" width="480" height="360" allow="autoplay"></iframe>
+         </div>
+        </div>
+        <div class="uk-flex uk-flex-center uk-margin-small">
+          <a class="uk-icon-button" href uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
+        </div>
+      </div>
     
  
-
-  # - title: License
-  #   text: |
-  #     This template is provided under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
-  #     You are free to use and modify the code in your project as long as you include a link to this [GitHub repository](https://github.com/denkiwakame/academic-project-template) in your footer.
-
 # projects: # relevant projects
 #   - title: "" # Relevant Project I
 #     description: ""  # abstract text
