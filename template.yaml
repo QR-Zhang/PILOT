@@ -73,7 +73,7 @@ abstract: |
 body:      
   - title: Simulation and Experiment
     text: |
-      Simulation Results
+      ## Simulation Results
       
       </div>
       <div uk-slider>
@@ -91,7 +91,13 @@ body:
         </div>
       </div>
 
-      Experiment Results
+     ## Experiment Results
+  - title: Simulation and Experiment (Choice 2)
+    text: "simulations"
+    slider:
+      - video: "https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview" 
+    
+    
  
 
   # - title: License
