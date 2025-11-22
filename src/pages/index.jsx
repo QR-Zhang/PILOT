@@ -115,7 +115,7 @@ class Template extends React.Component {
           conference={data.conference}
           authors={data.authors}
           affiliations={data.affiliations}
-          {/* meta={data.meta} */}
+          // meta={data.meta} 
           resources={data.resources}
           theme={data.theme}
         />
@@ -128,8 +128,8 @@ class Template extends React.Component {
           <Video video={data.resources.video} />
           <SpeakerDeck dataId={data.speakerdeck} />
           <Body body={data.body} />
-          {/* <Citation bibtex={data.bibtex} />
-          <Projects projects={data.projects} /> */}
+         {/* <Citation bibtex={data.bibtex} 
+          <Projects projects={data.projects} />  */}
         </div>
         <Footer />
       </div>
