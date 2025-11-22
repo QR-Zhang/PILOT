@@ -4,13 +4,13 @@ twitter: ""
 title: Vision-Driven End-to-End Motion Planning for UAVs Using Privileged Imitation Learning
 journal: ""
 resources:
-  paper: ""  # https://openreview.net/
-  arxiv: "" # https://arxiv.org
-  code:  "" # https://github.com/denkiwakame/academic-project-template
-  video:  "" # https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing
-  demo:  "" # https://colab.research.google.com/
+  paper: "https://qr-zhang.github.io/PILOT/"  # https://openreview.net/
+  arxiv: "https://qr-zhang.github.io/PILOT/" # https://arxiv.org
+  code:  "https://qr-zhang.github.io/PILOT/" # https://github.com/denkiwakame/academic-project-template
+  video:  "# https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing" # https://drive.google.com/drive/folders/1fQlAQK69jLvriGrCDQkWBCu6a7jgSyoi?usp=sharing
+  demo:  "https://qr-zhang.github.io/PILOT/" # https://colab.research.google.com/
   huggingface: # https://huggingface.co/
-description:  ""  # academic project page template that supports markdown and KaTeX
+description:  "This an academic page for our PILOT project"  # academic project page template that supports markdown and KaTeX
 
 image: ""  # https://denkiwakame.github.io/academic-project-template/teaser.jpg
 url:  "" # https://denkiwakame.github.io/academic-project-template
