@@ -83,7 +83,9 @@ body:
            </div>
           <div class="publication-video">
             <iframe src="https://drive.google.com/file/d/11eFgReh7KLMWDyhgZuxa-ozFwRnR-wHO/preview" width="480" height="360" allow="autoplay"></iframe>
-             # <iframe src="https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview" width="480" height="360" allow="autoplay"></iframe>
+            <!--
+            <iframe src="https://drive.google.com/file/d/1N-mTbLiDIFgVX5JmJtPSM07e0DMLVQqg/preview" width="480" height="360" allow="autoplay"></iframe>
+            -->
             <span class="uk-text-meta">Simulation results of PILOT at the Desnse arena</figcaption>
          </div>
          <div class="publication-video">
