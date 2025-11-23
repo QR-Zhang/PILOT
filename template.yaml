@@ -75,6 +75,7 @@ body:
     text: |
 
       </div>
+      <h3>Numerical simulation results of a quadrotor in a dense environment</h3>
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div class="publication-video">
@@ -91,6 +92,46 @@ body:
          <div class="publication-video">
             <iframe src="https://drive.google.com/file/d/1DK0088UGDGLR75pj8znA1w6cX5FvQkjm/preview" width="480" height="360" allow="autoplay"></iframe>
             <span class="uk-text-meta">Simulation results of PILOT-S at the Desnse arena</figcaption>
+         </div>
+         </div>
+        <div class="uk-flex uk-flex-center uk-margin-small">
+          <a class="uk-icon-button" href uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
+        </div>
+      </div>
+
+      <h3>Numerical simulation results of a quadrotor in a wall environment</h3>
+      <div uk-slider>
+        <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+          <div class="publication-video">
+            <iframe src="https://drive.google.com/file/d/1DPmGwYX_YKLUaVGBY5sed9p1QR9CDTAN/preview" width="480" height="360" allow="autoplay" frameBorder="0" ></iframe>
+            <span class="uk-text-meta">MPC</figcaption>
+           </div>
+          <div class="publication-video">
+            <iframe src="https://drive.google.com/file/d/1G6208WwS-bnXQA7czxZvc5CVNGSn6013/preview" width="480" height="360" allow="autoplay"></iframe>
+            <span class="uk-text-meta">PILOT</figcaption>
+         </div>
+         <div class="publication-video">
+            <iframe src="https://drive.google.com/file/d/1tfijE2GQEbyy_c3G_vn3s0Mouk7qM7Sw/preview" width="480" height="360" allow="autoplay"></iframe>
+            <span class="uk-text-meta">PILOT-S</figcaption>
+         </div>
+         </div>
+        <div class="uk-flex uk-flex-center uk-margin-small">
+          <a class="uk-icon-button" href uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
+        </div>
+      </div>
+
+      <h3>Numerical simulation results of a fixed-wing aircraft in a dense environment</h3>
+      <div uk-slider>
+        <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+         <div class="publication-video">
+            <iframe src="https://drive.google.com/file/d/1ClQSyAVEi4sednnFnwVogpjKNM2z7bE0/preview" width="480" height="360" allow="autoplay"></iframe>
+            <span class="uk-text-meta">MPC</figcaption>
+         </div>
+         <div class="publication-video">
+            <iframe src="https://drive.google.com/file/d/1sws4ssxWZJlkycT-366mOzBndhTzHNy8/preview" width="480" height="360" allow="autoplay"></iframe>
+            <span class="uk-text-meta">PILOT</figcaption>
          </div>
          </div>
         <div class="uk-flex uk-flex-center uk-margin-small">
