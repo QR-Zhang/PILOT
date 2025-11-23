@@ -4,9 +4,9 @@
 
 <div align="center" margin-bottom="6em">
 <a target="_blank" href="https://qr-zhang.github.io/">Qingrui Zhang</a>,
-<a target="_blank" href="https://silongyong.github.io/">Feng Xue</a>,
-<a target="_blank" href="https://jeasinema.github.io/">Xiang Zhou</a>,
-<a target="_blank" href="https://github.com/Germany321"> and Chenghao Yu</a>,
+<a target="_blank" href="">Feng Xue</a>,
+<a target="_blank" href="">Xiang Zhou</a>,
+<a target="_blank" href=""> and Chenghao Yu</a>,
 </div>
 
 ## 🎨 This is a repository for our *PILOT* project
