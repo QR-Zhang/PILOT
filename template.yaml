@@ -33,23 +33,8 @@ authors:
     url:  "" #https://thispersondoesnotexist.com/
 affiliations:
   - School of Aeronautics and Astronautics, Sun Yat-sen University
-# meta:
-#   - '*Equal Contribution'
-# bibtex: #>
-#   # @article{doe2024superai,
-#   #   author    = {Jane Doe and John Smith},
-#   #   title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
-#   #   journal   = {Journal of Superintelligent Systems},
-#   #   year      = {2024},
-#   #   volume    = {99},
-#   #   number    = {1},
-#   #   pages     = {1-42},
-#   #   month     = {January},
-#   #   keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
-#   #   doi       = {10.9999/jsis.2024.001},
-#   #   url       = {https://www.example.com/superai-article},
-#   #   note      = {This paper sets the benchmark for future AI research and applications.}
-#   # }
+meta:
+  - 'All authors are from the Cognitive Aerial Robotics Lab at Sun Yat-sen University'
 
 teaser: exp_at_pillar_environment2.jpg #teaser.jpg
 abstract: |
@@ -75,7 +60,7 @@ body:
     text: |
 
       </div>
-       <header><h3 style="text-align:center">Quadrotor in a dense environment</h3> </header>
+      <h3 style="text-align:center">Quadrotor in a dense environment</h3>
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div class="publication-video">
