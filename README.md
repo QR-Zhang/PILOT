@@ -2,7 +2,9 @@
 
 **PILOT**: **P**rivileged **I**mitation **L**earning algorithm for vision-based end-to-end UAV m**OT**ion planning
 
-## Outdoor experiment demo
+## 🚀 Outdoor experiment demo
+
+<img src="[image-url](https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg)" alt="Alt Text" style="width:50%; height:auto;">
 ![Experimental results in a pillar environment](https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg)
 
 
