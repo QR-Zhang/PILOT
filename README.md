@@ -1,3 +1,14 @@
+<h2 align="center">
+  <b>Vision-Driven End-to-End Motion Planning for UAVs Using Privileged Imitation Learning</b>
+</h2>
+
+<div align="center" margin-bottom="6em">
+<a target="_blank" href="https://qr-zhang.github.io/">Qingrui Zhang</a>,
+<a target="_blank" href="https://silongyong.github.io/">Feng Xue</a>,
+<a target="_blank" href="https://jeasinema.github.io/">Xiang Zhou</a>,
+<a target="_blank" href="https://github.com/Germany321"> and Chenghao Yu</a>,
+</div>
+
 ## 🎨 This is a repository for our *PILOT* project
 
 **PILOT**: **P**rivileged **I**mitation **L**earning algorithm for vision-based end-to-end UAV m**OT**ion planning
