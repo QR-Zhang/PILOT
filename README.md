@@ -5,8 +5,8 @@
 <div align="center" margin-bottom="6em">
 <a target="_blank" href="https://qr-zhang.github.io/">Qingrui Zhang</a>,
 <a target="_blank" href="">Feng Xue</a>,
-<a target="_blank" href="">Xiang Zhou</a>, and
-<a target="_blank" href="">Chenghao Yu</a>,
+<a target="_blank" href="">Xiang Zhou</a>, 
+<a target="_blank" href="">Chenghao Yu</a>
 </div>
 
 
