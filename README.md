@@ -4,9 +4,7 @@
 
 ## 🚀 Outdoor experiment demo
 
-<img src="https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg" alt="Alt Text" style="width:50%; height:auto;">
-
-![Experimental results in a pillar environment](https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg)
+<img src="https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg" alt="Experimental results in a pillar environment" style="width:60%; height:auto;">
 
 
 ## ✨ Features
