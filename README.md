@@ -13,7 +13,7 @@
 <h4 align="center">
   🎨 <b>This is a repository for our *PILOT* project</b>
 </h4>
-## 🎨 This is a repository for our *PILOT* project
+<!-- ## 🎨 This is a repository for our *PILOT* project -->
 
 **PILOT**: **P**rivileged **I**mitation **L**earning algorithm for vision-based end-to-end UAV m**OT**ion planning
 
