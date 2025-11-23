@@ -11,7 +11,7 @@
 
 
 <h4 align="center">
-  🎨 <b>This is a repository for our *PILOT* project</b>
+  🎨 <b>This is a repository for our <i>PILOT</i> project</b>
 </h4>
 <!-- ## 🎨 This is a repository for our *PILOT* project -->
 
