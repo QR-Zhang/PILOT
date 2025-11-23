@@ -75,7 +75,7 @@ body:
     text: |
 
       </div>
-       <header><h3 text-align: center>Quadrotor in a dense environment</h3> </header>
+       <header><h3 style="text-align:center">Quadrotor in a dense environment</h3> </header>
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div class="publication-video">
