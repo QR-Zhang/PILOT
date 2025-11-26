@@ -35,6 +35,13 @@
   <source src="[/public](https://qr-zhang.github.io/PILOT/)expOutdoorPillar.mp4" type="video/mp4">
 </video>
 
+https://qr-zhang.github.io/PILOT/
+
+<div class="publication-video">
+            <iframe src="https://qr-zhang.github.io/PILOT/public/expOutdoorPillar.mp4" width="480" height="360" allow="autoplay" frameBorder="0" ></iframe>
+            <span class="uk-text-meta">Outdoor experiment demo</figcaption>
+           </div>
+
 ![](public/expOutdoorPillar.mp4)
 <!-- <div align="center"> -->
 <video style="width:60%; height:auto" autoplay="autoplay" controls muted> 
