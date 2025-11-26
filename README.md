@@ -31,7 +31,9 @@
 </div>  -->
 
 <div align="center">
-<video src="https://qr-zhang.github.io/PILOT/expOutdoorPillar.mp4" style="width:60%; height:auto;video/mp4" autoplay="autoplay" controls muted controls> </video>
+<video style="width:60%; height:auto" autoplay="autoplay" controls muted> 
+  <source src="[video.mov](https://qr-zhang.github.io/PILOT/expOutdoorPillar.mp4)" type="video/mp4">
+</video>
 </div> 
 
 🌐 **Project page**: [PILOT Project](https://qr-zhang.github.io/PILOT/)
