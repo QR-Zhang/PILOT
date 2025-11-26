@@ -31,6 +31,10 @@
 </div>  -->
 
 
+<video width="320" height="240" controls>
+  <source src="public/expOutdoorPillar.mp4" type="video/mp4">
+</video>
+
 ![](public/expOutdoorPillar.mp4)
 <!-- <div align="center"> -->
 <video style="width:60%; height:auto" autoplay="autoplay" controls muted> 
