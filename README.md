@@ -30,11 +30,11 @@
   <!-- <img src="https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg" alt="Experimental results in a pillar environment" class="center" style="width:60%; height:auto;">
 </div>  -->
 
-<div align="center">
+<!-- <div align="center"> -->
 <video style="width:60%; height:auto" autoplay="autoplay" controls muted> 
-  <source src="public/expOutdoorPillar.mp4" type="video/mp4">
+  <source src="./public/expOutdoorPillar.mp4" type="video/mp4">
 </video>
-</div> 
+<!-- </div>  -->
 
 🌐 **Project page**: [PILOT Project](https://qr-zhang.github.io/PILOT/)
 
