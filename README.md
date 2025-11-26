@@ -32,7 +32,7 @@
 
 
 <video width="320" height="240" controls>
-  <source src="/public/expOutdoorPillar.mp4" type="video/mp4">
+  <source src="[/public](https://qr-zhang.github.io/PILOT/)expOutdoorPillar.mp4" type="video/mp4">
 </video>
 
 ![](public/expOutdoorPillar.mp4)
