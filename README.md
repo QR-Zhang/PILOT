@@ -25,22 +25,10 @@
 
 ## 🚀 Outdoor experiment demo
 
- <!-- <div align="center"> -->
+<div align="center"> 
 <!-- <img src="assets/teaser.png" width="99%" alt="LEO Teaser"> -->
-  <!-- <img src="https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg" alt="Experimental results in a pillar environment" class="center" style="width:60%; height:auto;">
-</div>  -->
-
-
-<video width="320" height="240" controls>
-  <source src="[/public](https://qr-zhang.github.io/PILOT/)expOutdoorPillar.mp4" type="video/mp4">
-</video>
-
-https://qr-zhang.github.io/PILOT/
-
-<div class="publication-video">
-            <iframe src="https://qr-zhang.github.io/PILOT/public/expOutdoorPillar.mp4" width="480" height="360" allow="autoplay" frameBorder="0" ></iframe>
-            <span class="uk-text-meta">Outdoor experiment demo</figcaption>
-           </div>
+<img src="https://qr-zhang.github.io/PILOT/exp_at_pillar_environment2.jpg" alt="Experimental results in a pillar environment" class="center" style="width:60%; height:auto;">
+</div> 
 
 ![](public/expOutdoorPillar.mp4)
 <!-- <div align="center"> -->
