@@ -32,7 +32,7 @@
 
 <div align="center">
 <video style="width:60%; height:auto" autoplay="autoplay" controls muted> 
-  <source src="[video.mov](https://qr-zhang.github.io/PILOT/expOutdoorPillar.mp4)" type="video/mp4">
+  <source src="https://qr-zhang.github.io/PILOT/expOutdoorPillar.mp4" type="video/mp4">
 </video>
 </div> 
 
