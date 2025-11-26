@@ -38,7 +38,7 @@
 ![](public/expOutdoorPillar.mp4)
 <!-- <div align="center"> -->
 <video style="width:60%; height:auto" autoplay="autoplay" controls muted> 
-  <source src="/public/expOutdoorPillar.mp4" type="video/mp4">
+  <source src="./public/expOutdoorPillar.mp4" type="video/mp4">
 </video>
 <!-- </div>  -->
 
