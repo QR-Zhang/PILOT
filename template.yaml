@@ -64,15 +64,15 @@ body:
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/16MGBmAvlHB5VML0RXof8IaFPxZ6PVxzz/preview" width="480" height="360" allow="autoplay" frameBorder="0" ></iframe>
+            <iframe src="https://drive.google.com/file/d/16MGBmAvlHB5VML0RXof8IaFPxZ6PVxzz/preview" width="480" height="270" allow="autoplay" frameBorder="0" ></iframe>
             <span class="uk-text-meta">MPC</figcaption>
            </div>
           <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/1hYxdLfYsHenIjDYUErux9_NtsF1Lmbwr/preview" width="480" height="360" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1hYxdLfYsHenIjDYUErux9_NtsF1Lmbwr/preview" width="480" height="270" allow="autoplay"></iframe>
             <span class="uk-text-meta">PILOT</figcaption>
          </div>
          <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/1ENmJq-rINP7GLAjxUo7ibpPqSEym8d01/preview" width="480" height="360" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1ENmJq-rINP7GLAjxUo7ibpPqSEym8d01/preview" width="480" height="270" allow="autoplay"></iframe>
             <span class="uk-text-meta">PILOT-S</figcaption>
          </div>
          </div>
@@ -108,11 +108,11 @@ body:
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
          <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/1ClQSyAVEi4sednnFnwVogpjKNM2z7bE0/preview" width="480" height="360" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1ClQSyAVEi4sednnFnwVogpjKNM2z7bE0/preview" width="480" height="270" allow="autoplay"></iframe>
             <span class="uk-text-meta">MPC</figcaption>
          </div>
          <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/1sws4ssxWZJlkycT-366mOzBndhTzHNy8/preview" width="480" height="360" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1sws4ssxWZJlkycT-366mOzBndhTzHNy8/preview" width="480" height="270" allow="autoplay"></iframe>
             <span class="uk-text-meta">PILOT</figcaption>
          </div>
          </div>
