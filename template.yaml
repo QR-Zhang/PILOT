@@ -64,15 +64,15 @@ body:
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/11ojpqUO1Owuiis2-LzYpRM3tR97UvMIf/preview" width="480" height="360" allow="autoplay" frameBorder="0" ></iframe>
+            <iframe src="https://drive.google.com/file/d/16MGBmAvlHB5VML0RXof8IaFPxZ6PVxzz/preview" width="480" height="360" allow="autoplay" frameBorder="0" ></iframe>
             <span class="uk-text-meta">MPC</figcaption>
            </div>
           <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/1LbTxN1m3IR-0vEy2SjvXFaAT6RCiR31A/preview" width="480" height="360" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1hYxdLfYsHenIjDYUErux9_NtsF1Lmbwr/preview" width="480" height="360" allow="autoplay"></iframe>
             <span class="uk-text-meta">PILOT</figcaption>
          </div>
          <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/19-i-3tbrJSCO8gX7xo5tamq-Q-nwn-Vk/preview" width="480" height="360" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1ENmJq-rINP7GLAjxUo7ibpPqSEym8d01/preview" width="480" height="360" allow="autoplay"></iframe>
             <span class="uk-text-meta">PILOT-S</figcaption>
          </div>
          </div>
