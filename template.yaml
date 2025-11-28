@@ -100,16 +100,6 @@ body:
         </div>
       </div>
 
-      <h3 style="text-align:center">Fixed-wing aircraft in a dense environment</h3>
-      <div uk-slider>
-        
-         </div>
-        <div class="uk-flex uk-flex-center uk-margin-small">
-          <a class="uk-icon-button" href uk-slidenav-previous uk-slider-item="previous"></a>
-          <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
-        </div>
-      </div>
-
   - title: Experiment Videos
     text: |
     
