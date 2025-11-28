@@ -51,7 +51,6 @@ have corroborated that the learned motion planner can generate feasible, collisi
 visual observations. Both simulations and experimental results have confirmed PILOT’s capability of strong generalization to previously 
 unseen environments. 
 
-
 body:      
   - title: Simulation Videos
     text: |
