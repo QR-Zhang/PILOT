@@ -129,15 +129,15 @@ body:
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
            <div class="publication-video">
-              <iframe src="https://drive.google.com/file/d/1Tmp-xNOwMoNdahUEB99eRKpcn1ChYyLW/preview" width="480" height="360" allow="autoplay" loop muted></iframe>
+              <iframe src="https://drive.google.com/file/d/1Tmp-xNOwMoNdahUEB99eRKpcn1ChYyLW/preview" width="480" height="270" allow="autoplay" loop muted></iframe>
               <span class="uk-text-meta">Indoor flight experiments</figcaption>
            </div>
            <div class="publication-video">
-              <iframe src="https://drive.google.com/file/d/14tN5GfzDEqjbSeDBge-kIsknCRniggwb/preview" width="480" height="360" allow="autoplay" loop muted></iframe>
+              <iframe src="https://drive.google.com/file/d/14tN5GfzDEqjbSeDBge-kIsknCRniggwb/preview" width="480" height="270" allow="autoplay" loop muted></iframe>
               <span class="uk-text-meta">Outdoor flight experiments (woods environment)</figcaption>
            </div>
            <div class="publication-video">
-             <iframe src="https://drive.google.com/file/d/1DvSPTRkdFAYB8qSL1-ZdEeWJ5Q73X-11/preview" width="480" height="360" allow="autoplay" loop muted></iframe>
+             <iframe src="https://drive.google.com/file/d/1DvSPTRkdFAYB8qSL1-ZdEeWJ5Q73X-11/preview" width="480" height="270" allow="autoplay" loop muted></iframe>
              <span class="uk-text-meta">Outdoor flight experiments (pillar environment)</figcaption>
            </div>
         </div>
