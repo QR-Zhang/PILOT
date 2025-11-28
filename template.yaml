@@ -129,7 +129,7 @@ body:
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
            <div class="publication-video">
-              <iframe src="https://drive.google.com/file/d/1vSl80DI8qUcv2FnOMPYQd3i4p_c2SjJv/preview" width="480" height="360" allow="autoplay" loop muted></iframe>
+              <iframe src="https://drive.google.com/file/d/1Tmp-xNOwMoNdahUEB99eRKpcn1ChYyLW/preview" width="480" height="360" allow="autoplay" loop muted></iframe>
               <span class="uk-text-meta">Indoor flight experiments</figcaption>
            </div>
            <div class="publication-video">
