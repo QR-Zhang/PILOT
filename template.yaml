@@ -38,21 +38,18 @@ meta:
 
 teaser: exp_at_pillar_environment2.jpg #teaser.jpg
 abstract: |
- Autonomous navigation in unknown cluttered environments remains a challenge for vision-based unmanned aerial vehicles (UAVs), 
- particularly under limited onboard resources. In this paper, we present PILOT, a privileged imitation learning algorithm for 
- vision-based end-to-end UAV motion planning in cluttered, unstructured, and congested environments. A model predictive control 
- (MPC) expert with access to privileged information is introduced to generate collision-free demonstration trajectories that 
- guide the learning process of PILOT. A temporal convolutional network (TCN) is used to implicitly reconstruct all unobservable 
- privileged information by fusing sequential visual observations and historical velocity measurements. The TCN module enables a 
- UAV to achieve extended spatial awareness beyond immediate visual perception, thereby enhancing the generalization capability 
- of the learned planner. A trajectory parameterization technique is further introduced to improve motion smoothness and ensure 
- satisfaction of UAV dynamic constraints. The proposed PILOT framework is thoroughly evaluated through extensive numerical simulations 
- and diverse real-world experiments. The evaluation results demonstrate that the planner learned by PILOT achieves consistent performance 
- comparable to the MPC expert with a significant reduction computation time by more than 80% across diverse environments and different 
- UAV platforms. Ablation studies have illustrated the efficiency of both the TCN and the trajectory parameterization modules. 
- Real-world tests on a custom-built quadrotor have corroborated that the learned motion planner can generate feasible, collision-free 
- trajectories in real time directly using noisy visual observations. Both simulations and experimental results have confirmed PILOT’s 
- capability of strong generalization to previously unseen environments.
+Autonomous navigation in cluttered environments remains a challenge for vision-based unmanned aerial vehicles (UAVs). In this paper, 
+we present PILOT, a privileged imitation learning algorithm for vision-based end-to-end UAV motion planning in cluttered and unstructured 
+environments. The learning process of PILOT is guided by a model predictive control (MPC) expert with access to privileged information. 
+A temporal convolutional network (TCN) is used to implicitly reconstruct all unobservable privileged information based on historical 
+measurements, enabling a UAV to achieve extended spatial awareness beyond immediate visual perception. A trajectory parameterization 
+technique is introduced to ensure motion smoothness and dynamic constraint satisfaction. The proposed PILOT framework is evaluated 
+through extensive numerical simulations and diverse real-world experiments. It demonstrates that the planner learned by PILOT achieves 
+consistent performance comparable to that of the MPC expert, with a significant reduction in computation time of more than 80%. Ablation 
+studies have illustrated the efficiency of both TCN and trajectory parameterization modules.  Real-world tests on a custom-built quadrotor 
+have corroborated that the learned motion planner can generate feasible, collision-free trajectories in real time directly using noisy 
+visual observations. Both simulations and experimental results have confirmed PILOT’s capability of strong generalization to previously 
+unseen environments. 
 
 
 body:      
@@ -108,11 +105,11 @@ body:
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
          <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/1ClQSyAVEi4sednnFnwVogpjKNM2z7bE0/preview" width="480" height="270" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1C6uUFrT0i4--OZ2H_I0ZpGoalvPDRz1c/preview" width="480" height="270" allow="autoplay"></iframe>
             <span class="uk-text-meta">MPC</figcaption>
          </div>
          <div class="publication-video">
-            <iframe src="https://drive.google.com/file/d/1sws4ssxWZJlkycT-366mOzBndhTzHNy8/preview" width="480" height="270" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1iEbD_C1vb78PbyW6tDXL7phl-Hs8k4vG/preview" width="480" height="270" allow="autoplay"></iframe>
             <span class="uk-text-meta">PILOT</figcaption>
          </div>
          </div>
