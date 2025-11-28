@@ -38,18 +38,7 @@ meta:
 
 teaser: exp_at_pillar_environment2.jpg #teaser.jpg
 abstract: |
-Autonomous navigation in cluttered environments remains a challenge for vision-based unmanned aerial vehicles (UAVs). In this paper, 
-we present PILOT, a privileged imitation learning algorithm for vision-based end-to-end UAV motion planning in cluttered and unstructured 
-environments. The learning process of PILOT is guided by a model predictive control (MPC) expert with access to privileged information. 
-A temporal convolutional network (TCN) is used to implicitly reconstruct all unobservable privileged information based on historical 
-measurements, enabling a UAV to achieve extended spatial awareness beyond immediate visual perception. A trajectory parameterization 
-technique is introduced to ensure motion smoothness and dynamic constraint satisfaction. The proposed PILOT framework is evaluated 
-through extensive numerical simulations and diverse real-world experiments. It demonstrates that the planner learned by PILOT achieves 
-consistent performance comparable to that of the MPC expert, with a significant reduction in computation time of more than 80%. Ablation 
-studies have illustrated the efficiency of both TCN and trajectory parameterization modules.  Real-world tests on a custom-built quadrotor 
-have corroborated that the learned motion planner can generate feasible, collision-free trajectories in real time directly using noisy 
-visual observations. Both simulations and experimental results have confirmed PILOT’s capability of strong generalization to previously 
-unseen environments. 
+Autonomous navigation in cluttered environments remains a challenge for vision-based unmanned aerial vehicles (UAVs). 
 
 body:      
   - title: Simulation Videos
